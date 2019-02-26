@@ -1,3 +1,4 @@
+/*
 const codes = [
   "ArrowUp",
   "ArrowUp",
@@ -10,9 +11,10 @@ const codes = [
   "b",
   "a"
 ];
+*/
 
 var log = []
-var code = [38,38,40,40,37,39,37,39,66,65]
+var codes = [38,38,40,40,37,39,37,39,66,65]
 
 
 document.addEventListener('keydown', (e) => {
