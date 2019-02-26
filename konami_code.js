@@ -134,11 +134,9 @@ const codes = [
 function init() {
 var index = 0
 document.addEventListener('keydown', function(e) {
-
   if (e.key === codes[index]) {
     index++;
     console.log(index);
-
     if (index === codes.length) {
       window.alert("Code Unlocked");
       console.log(index)
