@@ -66,17 +66,22 @@ document.addEventListener('keydown', (e) => {
   	log.push(`"${e.key}"`);
     if (log.length > 10) {
     log.shift();
+        }
+      }
+    else {
+      log = []
     }
-  }
- else {
- log = []
- }
 });
 
+function init() {
+  alert(" got em");
+}
 
 
 
 
+
+/*
 function init() {
   if (log === codes) {
   	alert("Code Unlocked");
@@ -84,7 +89,7 @@ function init() {
   // your code here
 }
 
-
+*/
 
 
 
