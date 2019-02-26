@@ -102,7 +102,7 @@ const codes = [
 var index = 0
 
 function init() {
-document.addEventListener('keydown', (e) => {
+document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
     if (index === codes.length) {
