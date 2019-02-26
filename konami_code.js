@@ -105,7 +105,6 @@ var log = []
 function init() {
 document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
-//    log.push(`${e.key}`)
     index++;
 
     if (index === codes.length) {
