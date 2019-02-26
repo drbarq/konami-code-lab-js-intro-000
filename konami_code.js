@@ -100,7 +100,6 @@ const codes = [
 ];
 
 var index = 0
-var log = []
 
 function init() {
 document.addEventListener('keydown', function(e) {
