@@ -101,7 +101,7 @@ const codes = [
 
 var index = 0
 
-function init(   
+function init(
 document.addEventListener('keydown', (e) => {
   if e.key === codes[index] {
     index++;
