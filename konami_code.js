@@ -99,6 +99,7 @@ const codes = [
   "a"
 ];
 
+/*
 var index = 0
 
 
@@ -120,6 +121,24 @@ function init() {
   if (index === codes.length){
   alert("Code Unlocked");
 }}
+*/
+
+var index = 0
+
+function init() {
+document.addEventListener('keydown', function(e) {
+  if (e.key === codes[index]) {
+    index++;
+    if (index === codes.length) {
+      alert("Code Unlocked");
+      index = 0;
+      console.log("yes")
+    }
+  }
+  else {
+    index = 0
+    }
+})}
 
 /*
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
