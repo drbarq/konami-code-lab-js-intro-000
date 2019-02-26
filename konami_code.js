@@ -138,9 +138,8 @@ document.addEventListener('keydown', function(e) {
       console.log(index)
       index = 0;
       console.log(index);
+      }
     }
-  }
-
     else {
       index = 0
       }
