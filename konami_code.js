@@ -47,7 +47,7 @@ function init() {
 // version 2 using .key to compare the key names but should work the same
 
 
-var log = []
+var log = [];
 const codes = [
   "ArrowUp",
   "ArrowUp",
@@ -64,14 +64,11 @@ const codes = [
 document.addEventListener('keydown', (e) => {
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
   	log.push(`"${e.key}"`);
-  	// logMessage(log);
+    if (log === codes) {
+  	alert("Code Unlocked");
+    }
     if (log.length > 10) {
     log.shift();
-    }
-    if (log === codes) {
-    log.push("Unlock")
- 		logmessage("CodeUnlocked")
-  	alert("Code Unlocked");
     }
   }
  else {
