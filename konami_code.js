@@ -123,9 +123,10 @@ function init() {
 }}
 */
 
-var index = 0
+
 
 function init() {
+var index = 0
 document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
