@@ -68,8 +68,6 @@ function init() {
   if(log === codes) {
       alert("Code Unlocked");
     }
-  }
-
 
 document.addEventListener('keydown', (e) => {
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
@@ -83,7 +81,7 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-
+}
 
 
 
