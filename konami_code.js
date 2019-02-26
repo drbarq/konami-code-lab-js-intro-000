@@ -69,19 +69,23 @@ document.addEventListener('keydown', (e) => {
   	log.push(`${e.key}`);
     if (log.length > 10) {
     log.shift();
+     if { (log === codes) {
+        alert("Code Unlocked");
+        }
       }
-
     }
+  }
     else {
       log = []
     }
 });
 
+/*
 function init() {
   if(log === codes) {
       alert("Code Unlocked");
 }}
-
+*/
 
 
 
