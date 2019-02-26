@@ -64,30 +64,27 @@ const codes = [
 ];
 
 
-
 function init() {
+  if(log === codes) {
+      alert("Code Unlocked");
+    }
+  }
+
+
 document.addEventListener('keydown', (e) => {
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
   	log.push(`${e.key}`);
     if (log.length > 10) {
     log.shift();
-     if (log === codes) {
-        alert("Code Unlocked");
         }
       }
-    }
     else {
       log = []
     }
 });
-}
 
-/*
 
-  if(log === codes) {
-      alert("Code Unlocked");
-}}
-*/
+
 
 
 
