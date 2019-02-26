@@ -78,7 +78,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 function init() {
-
+  alert("Code Unlocked");
 }
 
 
