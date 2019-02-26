@@ -99,7 +99,7 @@ function init() {
 
 
 
-
+/*
 
 
 
@@ -198,4 +198,5 @@ btnClearConsole.addEventListener('click', (e) => {
 
 /*
 
+*/
 */
