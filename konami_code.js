@@ -32,7 +32,7 @@ document.addEventListener('keydown', (e) => {
 
 function init() {
   if (log === code) {
-  	alert("Code Unlocked");
+//  	alert("Code Unlocked");
     console.log(log);
   }
   // your code here
