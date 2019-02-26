@@ -62,6 +62,7 @@ const codes = [
 ];
 
 var log = [];
+
 document.addEventListener('keydown', (e) => {
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
   	log.push(`${e.key}`);
