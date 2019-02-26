@@ -114,7 +114,7 @@ document.addEventListener('keydown', (e) => {
     index = 0
     }
   }
-);
+))
 
 
 /*
