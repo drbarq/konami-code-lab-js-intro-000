@@ -127,7 +127,6 @@ const codes = [
 
 
 function init() {
-  window.alert("Code Unlocked")
 var index = 0
 document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
