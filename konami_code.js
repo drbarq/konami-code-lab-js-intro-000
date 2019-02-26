@@ -128,14 +128,13 @@ const codes = [
 
 function init() {
 var index = 0
-var textAlert = "Hello"
 document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
     console.log(index);
 
     if (index === codes.length) {
-      alert(textAlert);
+      alert("Code Unlocked");
     //  index = 0;
       console.log(index);
       console.log(textAlert);
