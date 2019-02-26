@@ -61,24 +61,23 @@ const codes = [
   "a"
 ];
 
+function init() {
 document.addEventListener('keydown', (e) => {
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
   	log.push(`${e.key}`);
     if (log.length > 10) {
     log.shift();
         }
-    function init() {
       if (log === codes) {
           alert("Code Unlocked");
           }
-          // your code here
+
         }
       }
     else {
       log = []
     }
 });
-
 
 
 
