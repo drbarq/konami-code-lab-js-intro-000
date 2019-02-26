@@ -12,6 +12,27 @@ const codes = [
 ];
 
 var log = []
+var code = [38,38,40,40,37,39,37,39,66,65]
+
+
+document.addEventListener('keydown', (e) => {
+	if (e.which === 37 || e.which === 38 || e.which === 39 || e.which === 40 || e.which === 65 || e.which === 66) {
+  	log.push(e.which);
+//  	logMessage(log);
+    if (log.length > 10) {
+    log.shift();
+    }
+  }
+ else {
+ log = []
+ }
+});
+
+if (log === code) {
+	alert("Code Unlocked");
+  console.log(log);
+}
+
 
 // need to listen for key presses; make a function for each key?
 
@@ -57,7 +78,7 @@ function onKeyDownHandler(e) {
   }
 }
 */
-
+/*
 let textarea = document.getElementById('test-target'),
 consoleLog = document.getElementById('console-log'),
 btnClearConsole = document.getElementById('btn-clear-console');
