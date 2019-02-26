@@ -138,7 +138,7 @@ document.addEventListener('keydown', function(e) {
       alert(textAlert);
     //  index = 0;
       console.log(index);
-      console.log(textAlert)
+      console.log(textAlert);
     }
   }
   else {
