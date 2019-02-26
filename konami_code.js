@@ -48,6 +48,8 @@ function init() {
 
 
 
+var log = []
+
 const codes = [
   "ArrowUp",
   "ArrowUp",
@@ -61,7 +63,7 @@ const codes = [
   "a"
 ];
 
-var log = []
+
 
 
 document.addEventListener('keydown', (e) => {
@@ -79,6 +81,7 @@ document.addEventListener('keydown', (e) => {
       log = []
     }
 });
+
 
 /*
 function init() {
