@@ -64,7 +64,7 @@ const codes = [
 
 document.addEventListener('keydown', (e) => {
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
-  	log.push(${e.key});
+  	log.push(e.key);
 //  	logMessage(log);
     if (log.length > 10) {
     log.shift();
@@ -80,7 +80,7 @@ document.addEventListener('keydown', (e) => {
 function init() {
   if (log === codes) {
   	alert("Code Unlocked");
-    console.log(log);
+//    console.log(log);
   }
   // your code here
 }
