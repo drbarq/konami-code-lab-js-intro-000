@@ -132,6 +132,10 @@ document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
     console.log(index);
+  }
+    else {
+      index = 0
+      }
 
     if (index === codes.length) {
       window.alert("Code Unlocked");
@@ -140,10 +144,8 @@ document.addEventListener('keydown', function(e) {
       console.log(index);
     }
   }
-  else {
-    index = 0
-    }
-})}
+
+)}
 
 /*
 	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
