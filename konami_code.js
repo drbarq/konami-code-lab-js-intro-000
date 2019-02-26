@@ -70,11 +70,7 @@ document.addEventListener('keydown', (e) => {
     if (log.length > 10) {
     log.shift();
       }
-
-    if (log === codes) {
-        alert("Code Unlocked");
-          }
-        }
+    }
     else {
       log = []
     }
@@ -83,7 +79,9 @@ document.addEventListener('keydown', (e) => {
 
 
 function init() {
-
+  if (log === codes) {
+      alert("Code Unlocked");
+        }
 }
 
 
