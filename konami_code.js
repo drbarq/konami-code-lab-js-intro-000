@@ -86,19 +86,6 @@ document.addEventListener('keydown', (e) => {
 */
 
 
-const codes = [
-  "ArrowUp",
-  "ArrowUp",
-  "ArrowDown",
-  "ArrowDown",
-  "ArrowLeft",
-  "ArrowRight",
-  "ArrowLeft",
-  "ArrowRight",
-  "b",
-  "a"
-];
-
 /*
 var index = 0
 
@@ -122,6 +109,20 @@ function init() {
   alert("Code Unlocked");
 }}
 */
+
+
+const codes = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+  "b",
+  "a"
+];
 
 
 
