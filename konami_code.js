@@ -132,7 +132,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
     console.log(index);
-    
+
     if (index === codes.length) {
       window.alert("Code Unlocked");
       console.log(index)
@@ -143,7 +143,7 @@ document.addEventListener('keydown', function(e) {
 
     else {
       index = 0
-      }  
+      }
   }
 
 )}
