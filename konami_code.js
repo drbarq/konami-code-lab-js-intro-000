@@ -190,4 +190,3 @@ btnClearConsole.addEventListener('click', (e) => {
 /*
 
 */
-
