@@ -132,6 +132,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
     console.log(index);
+    
     if (index === codes.length) {
       alert("Hello!");
       index = 0;
