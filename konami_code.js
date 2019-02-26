@@ -12,8 +12,8 @@ const codes = [
   "a"
 ];
 */
-/* 
-// version one, using .which to return the numeric value of the keys pressed.  
+/*
+// version one, using .which to return the numeric value of the keys pressed.
 //pushes the numbers to an array that is capped at 10 digits and clears when an incorrect key is pressed
 var log = []
 var codes = [38,38,40,40,37,39,37,39,66,65]
