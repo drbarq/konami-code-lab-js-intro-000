@@ -135,9 +135,9 @@ document.addEventListener('keydown', function(e) {
 
     if (index === codes.length) {
       alert("Code Unlocked");
-    //  index = 0;
+      index = 0;
       console.log(index);
-  
+
     }
   }
   else {
