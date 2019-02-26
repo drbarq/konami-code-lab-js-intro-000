@@ -67,18 +67,19 @@ document.addEventListener('keydown', (e) => {
     if (log.length > 10) {
     log.shift();
         }
+    function init() {
+      if (log === codes) {
+          alert("Code Unlocked");
+          }
+          // your code here
+        }
       }
     else {
       log = []
     }
 });
 
-function init() {
-  if (log === codes) {
-  	alert("Code Unlocked");
-  }
-  // your code here
-}
+
 
 
 
