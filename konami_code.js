@@ -96,7 +96,7 @@ const codes = [
   "ArrowLeft",
   "ArrowRight",
   "b",
-  "a"
+  "b"
 ];
 
 var index = 0
