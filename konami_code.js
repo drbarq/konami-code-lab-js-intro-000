@@ -106,7 +106,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
     if (index === codes.length) {
-      init();
+      // init();
       index = 0;
       console.log("yes")
     }
