@@ -108,7 +108,7 @@ document.addEventListener('keydown', function(e) {
     log.push(`${e.key}`);
     index++;
 
-    if (index === codes.length + 1) {
+    if (index === codes.length) {
       alert("Code Unlocked");
       index = 0;
     }
