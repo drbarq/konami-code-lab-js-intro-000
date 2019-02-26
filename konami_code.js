@@ -77,10 +77,10 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-function init(){
+function init() {
   if(log === codes) {
       alert("Code Unlocked");
-}
+}}
 
 
 
