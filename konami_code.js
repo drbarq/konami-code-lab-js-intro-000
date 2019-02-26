@@ -109,7 +109,7 @@ document.addEventListener('keydown', function(e) {
     index++;
 
     if (index === codes.length) {
-    //  alert("Code Unlocked");
+      alert("Code Unlocked");
     //  index = 0;
     console.log("yes")
     }
