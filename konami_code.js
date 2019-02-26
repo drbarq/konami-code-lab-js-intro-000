@@ -33,7 +33,7 @@ document.addEventListener('keydown', (e) => {
 
 
 function init() {
-  if (log === code) {
+  if (log === codes) {
 //  	alert("Code Unlocked");
     console.log(log);
   }
