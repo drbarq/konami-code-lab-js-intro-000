@@ -12,7 +12,9 @@ const codes = [
   "a"
 ];
 */
-
+/* 
+// version one, using .which to return the numeric value of the keys pressed.  
+//pushes the numbers to an array that is capped at 10 digits and clears when an incorrect key is pressed
 var log = []
 var codes = [38,38,40,40,37,39,37,39,66,65]
 
@@ -39,6 +41,69 @@ function init() {
   }
   // your code here
 }
+*/
+
+
+// version 2 using .key to compare the key names but should work the same
+
+
+var log = []
+const codes = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+  "b",
+  "a"
+];
+
+
+document.addEventListener('keydown', (e) => {
+	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
+  	log.push(${e.key});
+//  	logMessage(log);
+    if (log.length > 10) {
+    log.shift();
+    }
+  }
+ else {
+ log = []
+ }
+});
+
+
+
+function init() {
+  if (log === codes) {
+  	alert("Code Unlocked");
+    console.log(log);
+  }
+  // your code here
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // need to listen for key presses; make a function for each key?
 
