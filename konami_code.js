@@ -74,22 +74,13 @@ document.addEventListener('keydown', (e) => {
 });
 
 function init() {
-  alert(" got em");
-}
-
-
-
-
-
-/*
-function init() {
   if (log === codes) {
   	alert("Code Unlocked");
   }
   // your code here
 }
 
-*/
+
 
 
 
