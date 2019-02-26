@@ -28,11 +28,15 @@ document.addEventListener('keydown', (e) => {
  }
 });
 
-if (log === code) {
-	alert("Code Unlocked");
-  console.log(log);
-}
 
+
+function init() {
+  if (log === code) {
+  	alert("Code Unlocked");
+    console.log(log);
+  }
+  // your code here
+}
 
 // need to listen for key presses; make a function for each key?
 
@@ -126,8 +130,5 @@ btnClearConsole.addEventListener('click', (e) => {
 // in theory couldnt that array eventually trigger randomly?
 
 /*
-function init() {
-  // your code here
 
-}
 */
