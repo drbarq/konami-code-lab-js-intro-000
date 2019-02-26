@@ -111,6 +111,8 @@ function init() {
 */
 
 
+
+
 const codes = [
   "ArrowUp",
   "ArrowUp",
@@ -124,11 +126,15 @@ const codes = [
   "a"
 ];
 
-
+// First I tried to store the key strokes in a fixed length array. using both .key and .which but while the arrays matched, 
+// they werent equal to true.  I changed it around to this function and used nested if function to increment index and 
+// consolelog the index posistion.  I can see the index incrementing, returning 10, then resetting, then returning 0 
+// proving that it is processing teh alert command but nothing is triggered.  commented out the test per Annabelle's suggestion
 
 function init() {
 var index = 0
 document.addEventListener('keydown', function(e) {
+  
   if (e.key === codes[index]) {
     index++;
     console.log(index);
