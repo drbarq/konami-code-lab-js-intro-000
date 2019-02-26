@@ -103,9 +103,9 @@ var index = 0
 
 function init() {
 document.addEventListener('keydown', (e) => {
-  if e.key === codes[index] {
+  if (e.key === codes[index]) {
     index++;
-    if index === codes.length {
+    if (index === codes.length) {
       alert("Code Unlocked");
       index = 0;
     }
