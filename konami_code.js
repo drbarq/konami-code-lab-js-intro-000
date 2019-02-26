@@ -45,7 +45,7 @@ function init() {
 
 
 // version 2 using .key to compare the key names but should work the same
-
+/*
 
 
 var log = []
@@ -83,18 +83,65 @@ document.addEventListener('keydown', (e) => {
 
 }
 
+*/
 
 
+const codes = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+  "b",
+  "a"
+];
 
+var index = 0
 
-
-
-
-
-
+function init() {
+document.addEventListener('keydown', (e) => {
+  if e.key === codes[index] {
+    index++;
+    if index === codes.length {
+      alert("Code Unlocked");
+    }
+  }
+  else {
+    index = 0
+    }
+  }
+}
 
 
 /*
+	if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "a" || e.key === "b") {
+  	log.push(`${e.key}`);
+    if (log.length > 10) {
+    log.shift();
+        }
+      }
+    else {
+      log = []
+    }
+});
+
+
+
+if(log === codes) {
+    alert("Code Unlocked");
+  }
+
+
+*/
+
+
+
+
+
+
 
 
 
