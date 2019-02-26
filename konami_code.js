@@ -78,6 +78,8 @@ document.addEventListener('keydown', (e) => {
 });
 
 function init(){
+  if(log === codes) {
+      alert("Code Unlocked")
 }
 
 
