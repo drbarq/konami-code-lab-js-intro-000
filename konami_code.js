@@ -61,7 +61,7 @@ const codes = [
   "a"
 ];
 
-var log = [];
+var log = []
 
 
 document.addEventListener('keydown', (e) => {
