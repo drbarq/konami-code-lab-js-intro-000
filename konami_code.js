@@ -107,6 +107,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === codes[index]) {
     index++;
     if (index === codes.length) {
+      alert("Hello! I am an alert box!!");
       alert("Code Unlocked");
       index = 0;
       console.log("yes")
