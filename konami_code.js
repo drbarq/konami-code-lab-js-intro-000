@@ -71,15 +71,12 @@ document.addEventListener('keydown', (e) => {
       if (log === codes) {
           alert("Code Unlocked");
           }
-
         }
-      }
     else {
       log = []
     }
 });
-
-
+}
 
 
 
